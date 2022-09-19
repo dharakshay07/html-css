@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background : linear-gradient(to left,lightpink, lightblue,lightgreen);
+            background-repeat: no-repeat;            
+        }
+        .subscribe
+        {
+            background-color: rgb(219, 10, 10);
+            color: white;
+            border: none;
+            height: 35px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.5s;
+        }
+        .subscribe:hover
+        {
+            opacity: 0.9;
+        }
+        .subscribe:active
+        {
+            opacity: 0.7;
+        }
+        .join
+        {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqShJaigv_XuhD2ROoTrxfFT-QiNNFGPy2di191VziJg1oj3pKCPRUZLm_5ncceFk3yI&usqp=CAU);
+            color: rgb(19, 115, 212);
+            border: 1px solid rgb(19, 115, 212);
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background-color,color 0.15s;
+        }
+        .join:hover
+        {
+            background-color:rgb(19, 115, 212) ;
+            color: white;
+        }
+        .join:active
+        {
+            opacity: 0.7;
+        }
+        .tweet
+        {
+            background-color: rgb(14, 127, 234);
+            color: white;
+            border: none;
+            height: 35px;
+            width: 75px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .tweet:hover
+        {
+            box-shadow: 10px 10px 10px rgb(0 0 0 / 10%);
+        }
+        .tweet:active
+        {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+    <marquee behavior="scrolling" direction="top">Hello!!</marquee>
+
+    <marquee behavior="scroll" direction="up" scrollamount="1">dhara</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee>
+<marquee behavior="scroll" direction="left" scrollamount="20">Fast Scrolling</marquee>
+<marquee behavior="scroll" direction="right" scrollamount="50">Very Fast Scrolling</marquee>
+</body>
+</html>

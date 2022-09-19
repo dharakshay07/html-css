@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabularForm</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    
+
+    <h3>Registration Form</h3>
+
+    <table >
+        <form>
+            <tr >
+                <td><label for="fname">First Name : </label></td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name : </label></td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth : </label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td ><label for="mobile" >Moblie No. : </label></td>
+                <td><input type="tel" name="mobile" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender : </label></td>
+                <td><input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female <br>
+                    <input type="radio" name="gender" id="not">I Prefer Not to Say</td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies : </label></td>
+                <td><input type="checkbox"> Cricket <br>
+                    <input type="checkbox"> Badminton <br>
+                    <input type="checkbox">Painting <br>
+                    <input type="checkbox">Travelling <br>
+                    <input type="checkbox">Chess <br>
+                    <input type="checkbox">Out door Games</td>
+            </tr>
+            <tr>
+                <td><label for="subject">Subject : </label></td>
+                <td><select name="subject">
+                    <option value="select">--Select--</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="c-language">C Language</option>
+                    <option value="cpp">C++</option>
+                    <option value="java">JAVA</option>
+                    <option value="python">PYTHON</option>
+                    <option value="netwotk">Hardware & Netwotking</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="file">Upload Photo Here : </label></td>
+                <td><input type="file" name="file"></td>
+            </tr>
+            <tr>
+                <td><label for="rating">Please Rate US from 0 to 10.</label></td>
+                <td><input type="range" name="range"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" name="" id="">
+                <input type="reset" name="" id=""></td>
+            </tr>
+
+
+        </form>
+    </table>
+</body>
+</html>
